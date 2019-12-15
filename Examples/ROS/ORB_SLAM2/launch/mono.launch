@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="ORB_SLAM2" name="mono" type="Mono" output="screen">
+        <param name="path_to_vocabulary" value="/home/yusuke/ORB_SLAM2/Vocabulary/ORBvoc.txt"/>
+        <param name="path_to_settings" value="/home/yusuke/ORB_SLAM2/Examples/Monocular/TUM1.yaml"/>
+        <param name="path_to_output" value="/home/yusuke/tum_output/room_test/lsdroom_trajectory.txt"/>
+    </node>
+</launch>

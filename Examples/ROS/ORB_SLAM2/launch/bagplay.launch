@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="rosbag" type="play" name="rosbagplay" output="screen" args="/home/yusuke/lsd_room/LSD_room.bag">
+        <remap from="image_raw" to="camera/image_raw"/>
+    </node>
+</launch>
